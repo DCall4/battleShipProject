@@ -1,0 +1,159 @@
+
+#container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.startPopUp {
+    position: absolute;
+    top: 25vh;
+    left: 12.5vw;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 75vw;
+    height: 50vh;
+    background-color: lightblue;
+
+}
+
+.playerBoardDiv {
+    position: absolute;
+    top: 25vh;
+    left: 0vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+    height: 50vw;
+    background-color: lightblue;
+}
+
+.computerBoardDiv {
+    position: absolute;
+    top: 25vh;
+    right: 0vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+    height: 50vw;
+    background-color: lightcoral;
+}
+
+.gameBoard {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shipDragContainer {
+    height: 120px;
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cell {
+    height: 20px;
+    width: 20px;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+.ship {
+    background-color: black;
+    height: 20px;
+}
+
+.carrier {
+    width: 100px;
+}
+
+.battleShip {
+    width: 80px;
+}
+
+.destroyer {
+    width: 60px;
+}
+
+.submarine {
+    width: 60px;
+}
+
+.patrolBoat {
+    width: 40px;
+}
+
+.highlight {
+    background-color: green;
+}
+
+.vertical {
+    width: 20px;
+}
+
+.carrier.vertical {
+    height: 100px;
+}
+
+.battleShip.vertical {
+    height: 80px;
+}
+
+.destroyer.vertical {
+    height: 60px;
+}
+
+.submarine.vertical {
+    height: 60px;
+}
+
+.patrolBoat.vertical {
+    height: 40px;
+}
+
+.hidden {
+    display: none;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0vh;
+}
+
+.hit {
+    background-color: red;
+}
+
+.miss {
+    background-color: grey;
+}
+
+.banner {
+    position: absolute;
+    top: 25vh;
+    width: 100vw;
+    height: 50vh;
+    z-index: 5;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.winner {
+    background-color: green;
+}
+
+.loser {
+    background-color: grey;
+}
